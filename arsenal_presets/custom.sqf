@@ -332,6 +332,19 @@ GRLIB_arsenal_magazines = [
     "rhsusf_mine_m49a1_3m_mag",                                     // M49A1 (3m)
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
 
+    // ACE Magazines
+    "ACE_HandFlare_Green",
+    "ACE_HandFlare_Red",
+    "ACE_HandFlare_White",
+    "ACE_HandFlare_Yellow",
+    "ACE_Chemlight_HiBlue",
+    "ACE_Chemlight_HiGreen",
+    "ACE_Chemlight_HiOrange",
+    "ACE_Chemlight_HiRed",
+    "ACE_Chemlight_HiWhite",
+    "ACE_Chemlight_HiYellow",
+    "ACE_Chemlight_HiIR",
+
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
     "APERSMine_Range_Mag",                                          // APERS Mine
