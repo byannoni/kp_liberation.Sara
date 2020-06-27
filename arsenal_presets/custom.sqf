@@ -946,6 +946,9 @@ GRLIB_arsenal_items = [
     "ACRE_VHF30108MAST",                                            // VHF30108 Mast
     "ACRE_VHF30108SPIKE",                                           // VHF30108 GS
 
+    // Vanilla NVG
+    "NVGoggles",
+
     // TFAR Items
     "tf_anprc148jem",                                               // AN/PRC-148 JEM
     "tf_anprc152",                                                  // AN/PRC-152
