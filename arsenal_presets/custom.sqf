@@ -343,7 +343,9 @@ GRLIB_arsenal_magazines = [
     "ACE_Chemlight_HiRed",
     "ACE_Chemlight_HiWhite",
     "ACE_Chemlight_HiYellow",
-    "ACE_Chemlight_HiIR",
+    "ACE_Chemlight_IR",
+    "ace_40mm_flare_white",
+    "ace_huntir_m203",
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
