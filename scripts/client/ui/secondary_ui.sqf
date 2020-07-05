@@ -11,7 +11,8 @@ waitUntil { dialog };
 } foreach [
     "STR_SECONDARY_MISSION0",
     "STR_SECONDARY_MISSION1",
-    "STR_SECONDARY_MISSION2"
+    "STR_SECONDARY_MISSION2",
+    "STR_SECONDARY_MISSION3"
 ];
 
 private [ "_oldchoice", "_images", "_briefings", "_missioncost" ];
@@ -19,13 +20,15 @@ private [ "_oldchoice", "_images", "_briefings", "_missioncost" ];
 _images = [
     "res\secondary\fob_hunting.jpg",
     "res\secondary\convoy_hijack.jpg",
-    "res\secondary\sar.jpg"
+    "res\secondary\sar.jpg",
+    "res\secondary\fob_hunting.jpg"
 ];
 
 _briefings = [
     "STR_SECONDARY_BRIEFING0",
     "STR_SECONDARY_BRIEFING1",
-    "STR_SECONDARY_BRIEFING2"
+    "STR_SECONDARY_BRIEFING2",
+    "STR_SECONDARY_BRIEFING0"
 ];
 
 _oldchoice = -1;
@@ -69,10 +72,14 @@ if ( dostartsecondary == 1 ) then {
     private _index = lbCurSel 101;
     if !(([2000,999999,false] call KPLIB_fnc_getOpforSpawnPoint) isEqualTo "") then {
         [_index] remoteExec ["start_secondary_remote_call", 2];
-    } else {
-        hint "There is not enough enemy territory left for secondary missions.";
-        uiSleep 2;
-        hintSilent "";
+    }   else {
+        //disabled for testing
+
+        //hint "There is not enough enemy territory left for secondary missions.";
+        //uiSleep 2;
+        //hintSilent "";
+
+        [_index] remoteExec ["start_secondary_remote_call", 2];
     }
 };
 

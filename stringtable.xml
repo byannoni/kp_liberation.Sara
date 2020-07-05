@@ -3369,7 +3369,22 @@
             <Portuguese>&lt;t size='1.3' color='#ffa000'&gt;BUSCA E RESGATE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Perdemos contato com um helicóptero de reconhecimento presente em uma missão atrás das linhas inimigas. Acreditamos que o helicóptero foi abatido por forças hostis.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;O helicóptero pode ter feito um pouso forçado em local próximo de sua última posição conhecida. Sua missão é recuperar a tripulação do helicóptero e sua preciosa inteligência. Forças hostis podem tê-los localizado primeiro, portanto seja rápido, cuidadoso e esteja pronto para engajar o inimigo.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: 20 pontos de inteligência (10 para cada membro vivo da tripulação).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Portuguese>
             <Korean>&lt;t size='1.3' color='#ffa000'&gt;수색 및 구출&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;적군 후방지역에서 정찰임무를 수행하던 아군 정찰기와 교신이 끊어졌습니다. 현 상황으로 판단할때 적군에게 격추당한 것 같습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;아군의 임무는 마지막 교신 위치를 중심으로 아군 정찰기의 흔적을 찾는 것입니다. 적군이 먼저 발견하기전에 아군 정찰기의 흔적을 찾아 승무원 구출 및 다른 정보들을 획득, 복귀해야 합니다. 교전이 벌어질 수 있습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소요되는 정보 점수: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 정보 점수가 20점 추가됩니다. 또한 구출한 인원 1명당 정보 점수가 10점 추가됩니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Korean>
         </Key>
-
+<Key ID="STR_SECONDARY_MISSION3">
+            <Original>Assasinate Corrupt Officer</Original>
+            <French>Assassinez un officier corrompu</French>
+            <German>Korrupten Offizier ermorden</German>
+            <Spanish>Asesinato oficial corrupto</Spanish>
+            <Russian>Убить Коррумпированного Офицера</Russian>
+            <Italian>Assassina Corrupt Officer</Italian>
+            <Chinesesimp>暗杀官员</Chinesesimp>
+            <Chinese>暗殺貪官</Chinese>
+            <Turkish>Suikast Yolsuzluğu Görevlisi</Turkish>
+            <Portuguese>Oficial corrupto assassino</Portuguese>
+            <Korean>부패한 장교 암살</Korean>
+        </Key>
+        <Key ID="STR_SECONDARY_BRIEFING3">
+ <Original>&lt;t size='1.3' color='#ffa000'&gt;Assasinate Corrupt Officer&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;A corrupt officer has been terrorizing the population. Killing him will surely increase our standing with the local people.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;The officer is operating from a military base in the area. Strike him either in the base or while he’s en route to another location. &lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: 5 Civilian Reputation.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Original>
+        </Key>
         <!-- Added in v0.924 -->
         <Key ID="STR_PARAM_SQUAD_SIZE">
             <Original>AI recruitment limit per squad</Original>
@@ -6676,6 +6691,16 @@
             <English>KP Player Menu v1.0.2\nby Wyqer</English>
             <German>KP Spielermenü v1.0.2\nvon Wyqer</German>
             <Spanish>Menú de Jugador KP v1.0.2\npor Wyqer</Spanish>
+        </Key>
+
+        <Key ID="STR_NOTIFICATION_KCO_STARTED">
+            <Original>Corrupt officer at %1.</Original>
+        </Key>
+        <Key ID="STR_NOTIFICATION_KCO_SUCCESS">
+            <Original>The officer has been killed, a Quick Response Force has been dispatched.</Original>
+        </Key>
+        <Key ID="STR_NOTIFICATION_KCO_FAILURE">
+            <Original>The officer was been alerted and has left.</Original>
         </Key>
     </Package>
 </Project>

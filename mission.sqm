@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=416;
+		nextID=436;
 	};
 	class Camera
 	{
 		pos[]={4051.2673,73.14711,11782.281};
-		dir[]={0.37547749,-0.38769481,0.8418557};
-		up[]={0.15792163,0.92178679,0.35407534};
-		aside[]={0.91328347,7.7205186e-008,-0.40733621};
+		dir[]={-0.19624346,-0.39978507,0.89536214};
+		up[]={-0.085592791,0.9166078,0.39051673};
+		aside[]={0.97681743,1.1181692e-007,0.21409577};
 	};
 };
 binarizationWanted=0;
@@ -35,6 +35,7 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F",
 	"A3_Characters_F",
+	"ace_explosives",
 	"A3_Structures_F_Mil_TentHangar",
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Structures_F_Mil_Fortification",
@@ -47,19 +48,22 @@ addons[]=
 	"A3_Structures_F_Mil_Shelters",
 	"A3_Structures_F_EPA_Civ_Constructions",
 	"A3_Structures_F_Mil_BagBunker",
+	"ace_logistics_wirecutter",
+	"ace_concertina_wire",
 	"A3_Structures_F_Households_Slum",
 	"A3_Structures_F_Ind_Tank",
 	"A3_Structures_F_Households_Addons",
 	"A3_Structures_F_Ind_Transmitter_Tower",
 	"A3_Structures_F_Ind_WindPowerPlant",
 	"A3_Structures_F_Training",
+	"cba_xeh",
 	"A3_Structures_F_Mil_Flags"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=10;
+		items=13;
 		class Item0
 		{
 			className="A3_Boat_F_Jets";
@@ -104,26 +108,47 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item7
+		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
+		{
+			className="ace_logistics_wirecutter";
+			name="ACE3 - Logistics Wire Cutter";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item10
+		{
+			className="ace_concertina_wire";
+			name="ACE3 - Concertina Wire";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item11
 		{
 			className="A3_Structures_F_Households";
 			name="Arma 3 - Houses";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item12
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
@@ -3769,21 +3794,21 @@ class Mission
 			dataType="Layer";
 			name="Cache Ammo [BLU]";
 			id=222;
-			atlOffset=67.569252;
+			atlOffset=70.019997;
 		};
 		class Item126
 		{
 			dataType="Layer";
 			name="Storage (Lamp) [BLU]";
 			id=233;
-			atlOffset=67.569252;
+			atlOffset=70.019997;
 		};
 		class Item127
 		{
 			dataType="Layer";
 			name="Storage [BLU] #1";
 			id=241;
-			atlOffset=67.569252;
+			atlOffset=70.019997;
 		};
 		class Item128
 		{
@@ -6353,6 +6378,7 @@ class Mission
 					};
 					id=917;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045166016;
 				};
 				class Item76
 				{
@@ -6371,7 +6397,7 @@ class Mission
 					};
 					id=918;
 					type="CamoNet_OPFOR_open_F";
-					atlOffset=-1.5258789e-005;
+					atlOffset=-0.045181274;
 				};
 				class Item77
 				{
@@ -6390,7 +6416,7 @@ class Mission
 					};
 					id=919;
 					type="CamoNet_OPFOR_open_F";
-					atlOffset=-1.5258789e-005;
+					atlOffset=-0.045181274;
 				};
 				class Item78
 				{
@@ -6464,7 +6490,7 @@ class Mission
 				};
 			};
 			id=931;
-			atlOffset=-0.19328308;
+			atlOffset=-0.195755;
 		};
 		class Item132
 		{
@@ -7319,7 +7345,7 @@ class Mission
 					};
 					id=1333;
 					type="CamoNet_OPFOR_open_F";
-					atlOffset=-1.5258789e-005;
+					atlOffset=-0.045181274;
 				};
 				class Item7
 				{
@@ -7391,6 +7417,7 @@ class Mission
 					};
 					id=1353;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045166016;
 				};
 				class Item11
 				{
@@ -7429,7 +7456,7 @@ class Mission
 				};
 			};
 			id=1369;
-			atlOffset=-0.39686584;
+			atlOffset=-0.40286255;
 		};
 		class Item136
 		{
@@ -8140,6 +8167,7 @@ class Mission
 					};
 					id=1476;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.04516983;
 				};
 				class Item1
 				{
@@ -8596,6 +8624,7 @@ class Mission
 					};
 					id=1506;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.04516983;
 				};
 				class Item27
 				{
@@ -9122,6 +9151,7 @@ class Mission
 					};
 					id=1766;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.04516983;
 				};
 				class Item1
 				{
@@ -9556,7 +9586,7 @@ class Mission
 					};
 					id=1825;
 					type="CamoNet_OPFOR_open_F";
-					atlOffset=3.8146973e-006;
+					atlOffset=-0.045166016;
 				};
 				class Item26
 				{
@@ -11094,6 +11124,7 @@ class Mission
 					};
 					id=1978;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.04516983;
 				};
 				class Item112
 				{
@@ -15307,6 +15338,7 @@ class Mission
 					};
 					id=2835;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item2
 				{
@@ -15538,7 +15570,7 @@ class Mission
 				};
 			};
 			id=2881;
-			atlOffset=-9.5367432e-007;
+			atlOffset=-2.8610229e-006;
 		};
 		class Item150
 		{
