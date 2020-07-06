@@ -6693,13 +6693,13 @@
             <Spanish>Menú de Jugador KP v1.0.2\npor Wyqer</Spanish>
         </Key>
 
-        <Key ID="STR_NOTIFICATION_KCO_STARTED">
+        <Key ID="STR_NOTIFICATION_ACO_STARTED">
             <Original>Corrupt officer at %1.</Original>
         </Key>
-        <Key ID="STR_NOTIFICATION_KCO_SUCCESS">
+        <Key ID="STR_NOTIFICATION_ACO_SUCCESS">
             <Original>The officer has been killed, a Quick Response Force has been dispatched.</Original>
         </Key>
-        <Key ID="STR_NOTIFICATION_KCO_FAILURE">
+        <Key ID="STR_NOTIFICATION_ACO_FAILURE">
             <Original>The officer was been alerted and has left.</Original>
         </Key>
     </Package>

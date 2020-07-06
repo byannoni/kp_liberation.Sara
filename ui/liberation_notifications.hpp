@@ -191,7 +191,7 @@ class CfgNotifications {
         color[] = {0, 0.5, 0, 1};
         sound = "taskUpdated";
     };
-    class lib_cr_sar: lib_intel {
+    class lib_cr_ACO: lib_intel {
         description = $STR_NOTIFICATION_KCO_STARTED;
     };
 };

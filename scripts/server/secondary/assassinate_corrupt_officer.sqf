@@ -35,7 +35,7 @@ secondary_objective_position_marker = _spawn_marker getPos [10, 0];
 publicVariable "secondary_objective_position_marker";
 sleep 1;
 GRLIB_secondary_in_progress = 2; publicVariable "GRLIB_secondary_in_progress";
-["lib_cr_sar", [markertext _random]] call BIS_fnc_showNotification;
+["lib_cr_ACO", [markertext _random]] call BIS_fnc_showNotification;
 _secondary_marker = createMarker ["secondarymarker", secondary_objective_position_marker];
 _secondary_marker setMarkerColor GRLIB_color_enemy_bright;
 _secondary_marker setMarkerType "hd_objective";
@@ -50,11 +50,11 @@ waitUntil {
 
 if (!alive _officer)
 	then {
-	hint localize "STR_NOTIFICATION_KCO_SUCCESS";
+	hint localize "STR_NOTIFICATION_ACO_SUCCESS";
 	_reward call F_cr_changeCR;
 	}
 	else {
-	hint localize "STR_NOTIFICATION_KCO_FAILURE";
+	hint localize "STR_NOTIFICATION_ACO_FAILURE";
 	};
 
 GRLIB_secondary_in_progress = -1; publicVariable "GRLIB_secondary_in_progress";
