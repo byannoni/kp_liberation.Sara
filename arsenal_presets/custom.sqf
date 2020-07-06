@@ -346,6 +346,7 @@ GRLIB_arsenal_magazines = [
     "ACE_Chemlight_IR",
     "ace_40mm_flare_white",
     "ace_huntir_m203",
+    "ace_30rnd_556x45_stanag_mk318_mag",
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
@@ -978,6 +979,7 @@ GRLIB_arsenal_backpacks = [
     "B_FieldPack_cbr",                                              // Field Pack (Coyote)
     "B_FieldPack_khk",                                              // Field Pack (Khaki)
     "B_FieldPack_oli",                                              // Field Pack (Olive)
+    "B_FieldPack_blk",                                              // Field Pack (Blk)
     "B_Kitbag_cbr",                                                 // Kitbag (Coyote)
     "B_Kitbag_rgr",                                                 // Kitbag (Green)
     "B_Kitbag_tan",                                                 // Kitbag (Tan)
