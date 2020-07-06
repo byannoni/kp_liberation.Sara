@@ -7,7 +7,7 @@ private _endtimer = time + 28800;
 private _reward = [5, false];
 private _random = selectRandom sectors_military;
 //private _spawn_marker = getmarkerpos _random;
-private _spawn_marker = getmarkerpos sectors_military;
+private _spawn_marker = getmarkerpos _random;
 
 
 //removes used bases from possible bases, currently disabled
