@@ -38,7 +38,7 @@ if ( combat_readiness < 50 ) then {
 private _vehtospawn = [];
 private _spawnchances = [100,50,25];
 {if (random 100 < _x) then {_vehtospawn pushBack (selectRandom _vehicle_pool);};} foreach _spawnchances;
-{([(getpos _spawn_marker) getPos [50, random 360], _x, true] call KPLIB_fnc_spawnVehicle) addEventHandler ['Killed', {_this spawn kill_manager}]; } foreach _vehtospawn;
+{([_spawn_marker getPos [50, random 360], _x, true] call KPLIB_fnc_spawnVehicle) addEventHandler ['Killed', {_this spawn kill_manager}]; } foreach _vehtospawn;
 
 //add marker and notification
 secondary_objective_position_marker = _spawn_marker getPos [10, 0];
